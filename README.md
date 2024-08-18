@@ -28,5 +28,5 @@ Copy, paste and drag until the data is in the last row
 filter method: select country, filter text, does not contain ","
 ### Filter Country : elect country, filter text, does not contain ","
 ![](Filter%20Country.JPG)
-#### Load Data use Excel or Google Colab
+### Load Data use Excel or Google Colab
 ![](Data%20Load.JPG) 
