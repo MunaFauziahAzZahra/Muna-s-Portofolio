@@ -8,10 +8,10 @@ Analytics Portofolio
 ## 2. Use Google Colab
 import pandas as pd
 
-# Read file CSV
+Read file CSV
 df = pd.read_csv('EksporBatik_2010_2021.csv')
 
-# Save to Excel format
+Save to Excel format
 df.to_excel('EksporBatik_2010_2021.xlsx', index=False)
 
 ## Not all lines are converted correctly, what is problem?
