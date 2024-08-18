@@ -2,10 +2,10 @@
 Analytics Portofolio
 
 # CSV to Excel use Excel and Google Colab Conversion and Its Problem 
-##1. Use Excel
+## 1. Use Excel
    Open new Excel, Data, Get Data, From File, From Text or CSV, choose your data csv, import, adjust file origin, delimiter, and data type detection, then load.
 
-##2. Use Google Colab
+## 2. Use Google Colab
 import pandas as pd
 
 # Read file CSV
@@ -14,7 +14,7 @@ df = pd.read_csv('EksporBatik_2010_2021.csv')
 # Save to Excel format
 df.to_excel('EksporBatik_2010_2021.xlsx', index=False)
 
-##Not all lines are converted correctly, what is problem?
+## Not all lines are converted correctly, what is problem?
 because the number of commas (as delimiters) does not match the metadata in the data
 
 how do you know? 
