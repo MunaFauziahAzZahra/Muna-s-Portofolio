@@ -26,3 +26,7 @@ Copy, paste and drag until the data is in the last row
 3. Match with the dataset that has been uploaded in Excel or Google Colab
 4. To analyze whether this is really happening due to different comma counts, you can compare the correct comma count (according to metadata or colored green) with the load data
 filter method: select country, filter text, does not contain ","
+###Filter Country : elect country, filter text, does not contain ","
+![](Filter%20Country.JPG)
+#### Load Data use Excel or Google Colab
+![](Data%20Load.JPG) 
