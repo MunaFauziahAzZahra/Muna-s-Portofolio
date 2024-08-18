@@ -23,6 +23,5 @@ note that in each line there are no commas other than those used as delimiters
 Count the commas : =LEN(B2)-LEN(SUBSTITUTE(B2;",";""))
 Copy, paste and drag until the data is in the last row
 2. Match with the dataset that has been uploaded in Excel or Google Colab
-
-
-
+3. To analyze whether this is really happening due to different comma counts, you can compare the correct comma count (according to metadata or colored green) with the load data
+filter method: select country, filter text, does not contain ","
